@@ -152,6 +152,15 @@ The performance of the random forest classifier is exceptional as it is able to 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/RF%20SMOTE%20AUC%20Curves.png"/>
 
+## Dataset
+The main dataset (`application_train.csv`) is not included in this repository due to its large size (158.44 MB). You can:
+
+1. Download it from Kaggle: [Home Credit Default Risk Competition](https://www.kaggle.com/c/home-credit-default-risk/data)
+2. Place it in the root directory of this project
+3. Run the preprocessing notebooks to prepare the data
+
+Note: The model has already been trained and saved (`model.pkl`), so you can still use the prediction interface without the training dataset.
+
 ## Machine Learning Models
 
 We know that there are __millions of records__ in our data. Hence, it is important to use the most appropriate machine learning model that deals with __high-dimensional data__ well. Below are the machine learning models used for predicting whether a person would default on a __loan or not__. 
